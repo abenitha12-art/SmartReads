@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SmartReads | Home</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 font-sans">
+
+<!-- Navbar -->
+<nav class="bg-blue-900 text-white p-4 flex justify-between items-center ">
+    <h1 class="text-2xl font-bold">SmartReads</h1>
+    <div class="space-x-6">
+        <a href="index.html" class="hover:text-gray-300">Home</a>
+        <a href="books.html" class="hover:text-gray-300">Books</a>
+        <a href="cart.html" class="hover:text-gray-300">Cart</a>
+         <a href="admin.html" class="hover:text-gray-300">Admin</a>
+        <a href="login.html" class="hover:text-gray-300">Login</a>
+        <a href="signup.html" class="bg-white text-blue-900 px-4 py-2 rounded hover:bg-gray-200">
+        Sign Up
+    </a>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="bg-gradient-to-r from-blue-800 to-blue-500 text-white text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Discover Your Next Great Book</h2>
+    <p class="mb-6">Explore knowledge, fiction, and inspiration all in one place.</p>
+    <a href="books.html" class="bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-gray-200">
+        Browse Books
+    </a>
+</section>
+
+<!-- Featured Books -->
+<section class="p-10">
+    <h3 class="text-2xl font-bold mb-6 text-center">Featured Books</h3>
+
+    <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-5 rounded-lg shadow hover:shadow-xl transition">
+            <img src="1.jpeg" class="mb-4 w-full h-[450px]">
+            <h4 class="font-bold">Rich Dad Poor Dad</h4>
+            <p class="text-gray-600">15,000 RWF</p>
+            <button class="mt-3 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700">
+                <a href="cart.html" class="text-white no-underline">Add to Cart</a>
+            </button>
+        </div>
+
+        <div class="bg-white p-5 rounded-lg shadow hover:shadow-xl transition">
+            <img src="5.jpeg" class="mb-4 w-full h-[450px]">
+            <h4 class="font-bold">Atomic Habits</h4>
+            <p class="text-gray-600">18,000 RWF</p>
+            <button class="mt-3 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700">
+               <a href="cart.html" class="text-white no-underline">Add to Cart</a>
+            </button>
+        </div>
+        <div class="bg-white p-5 rounded-lg shadow hover:shadow-xl transition">
+            <img src="4.jpeg" class="mb-4 w-full h-[450px]">
+            <h4 class="font-bold">Think and Grow Rich</h4>
+            <p class="text-gray-600">14,000 RWF</p>
+            <button class="mt-3 bg-blue-900 text-white px-4 py-2 rounded hover:bg-blue-700">
+                 <a href="cart.html" class="text-white no-underline">Add to Cart</a>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-900 text-white text-center p-4">
+    © 2026 SmartReads Bookstore | All Rights Reserved
+</footer>
+
+</body>
+</html>
