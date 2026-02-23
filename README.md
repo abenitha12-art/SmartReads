@@ -60,7 +60,7 @@ The Figma prototype helped guide the structure, spacing, and color theme of the 
 1. Download the project folder.
 2. Open the folder.
 3. Open index.html in a web browser.
-4. Navigate through the pages using the navigation bar.
+4. Navigate through the pages using the navigation bars.
 
 ---
 
